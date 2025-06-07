@@ -239,12 +239,12 @@ program simulator
 		
 !		整列
         num_ali(n) = 0.
-		x_ali(n) = 0.
-		y_ali(n) = 0.
-		dx_ali(nn)=0.
-		dy_ali(nn)=0.
-		dxx(nn)=0.
-		dyy(nn)=0.
+                x_ali(n) = 0.
+                y_ali(n) = 0.
+                dx_ali(n)=0.
+                dy_ali(n)=0.
+                dxx(n)=0.
+                dyy(n)=0.
 		
 		do m = 1, nn
 		if(abs(sig(n,m))<2.79) then
